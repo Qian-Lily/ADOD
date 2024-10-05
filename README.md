@@ -37,8 +37,7 @@ All datasets are located in the `datasets` folder. The suffix `_ODDS` or `_ADBen
 #### Data Preprocessing
 
 - **Deduplication**: Deduplication was performed for datasets containing duplicate entries to ensure data uniqueness.
-
-  **Standardization**: All datasets were standardized before conducting outlier detection. This preprocessing step scales the features to have zero mean and unit variance.
+- **Standardization**: All datasets were standardized before conducting outlier detection. This preprocessing step scales the features to have zero mean and unit variance.
 
 The experiments utilize the entire dataset to ensure comprehensive evaluation of outlier detection performance.
 
@@ -83,12 +82,11 @@ python visualization_real_data.py
 
 ## Results 
 
-Results related to Average Precision (AP) scores and execution time are stored in the `results_ap_time` folder. This includes:
+Results related to Average Precision (AP) scores are stored in the `results_ap folder. This includes:
 
 - AP Scores on real datasets
 - Critical Difference Diagrams of AP
 - Parameter Sensitivity Analysis of AP
-- Runtime Table
 
 ## Critical Difference Diagram
 
