@@ -16,15 +16,6 @@ pip install -r requirements.txt
 - **[umap-learn](https://umap-learn.readthedocs.io/en/latest/)**: Used for dimensionality reduction for visualization of real datasets.
 - **[pyod](https://github.com/yzhao062/pyod)**: A comprehensive Python toolkit for detecting outliers in multivariate data. We use 14 outlier detection algorithms from different categories provided by this library as baselines to compare the performance of our proposed methods.
 
-## Environment Setup
-
-The following hardware and software configurations were used for the experiments:
-
-- **Operating System**: Windows
-- **CPU**: Intel Core i9, 14 cores, running at 2.50 GHz
-- **Memory**: 64 GB of RAM
-- **GPU**: NVIDIA GeForce RTX 3080 Ti
-
 ## **Datasets**
 
 We use 32 real-world datasets for our experiments. These datasets are sourced from two repositories:
@@ -87,7 +78,3 @@ Results related to Average Precision (AP) scores are stored in the `results_ap` 
 - AP Scores on real datasets
 - Critical Difference Diagrams of AP
 - Parameter Sensitivity Analysis of AP
-
-## Critical Difference Diagram
-
-For instructions on generating Critical Difference Diagrams as referenced in the paper, please visit [Critical Difference Diagrams](https://github.com/hfawaz/cd-diagram).
