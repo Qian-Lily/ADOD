@@ -82,7 +82,7 @@ python visualization_real_data.py
 
 ## Results 
 
-Results related to Average Precision (AP) scores are stored in the `results_ap folder. This includes:
+Results related to Average Precision (AP) scores are stored in the `results_ap` folder. This includes:
 
 - AP Scores on real datasets
 - Critical Difference Diagrams of AP
