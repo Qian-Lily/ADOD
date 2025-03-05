@@ -79,8 +79,11 @@ Results related to Average Precision (AP) scores are stored in the `results_ap` 
 - Critical Difference Diagrams of AP
 - Parameter Sensitivity Analysis of AP
 
-```bibtex
+## Citation
 
+If you used ADOD in your publication or utilized the implementation from this repository, please cite our paper:
+
+```bibtex
 @inproceedings{qian2024adod,
   title={ADOD: Adaptive Density Outlier Detection},
   author={Qian, Li and Qian, Jing and Sun, Xin and Guo, Wengang and Böhm, Christian},
