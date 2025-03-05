@@ -1,6 +1,6 @@
 # ADOD
 
-This repository contains the source code for the paper titled "ADOD: Adaptive Density Outlier Detection." It includes implementations of our proposed methods along with 14 comparative baselines using 32 real-world datasets.
+This repository contains the source code for the paper **"ADOD: Adaptive Density Outlier Detection"**, which has been published at ICDM 2024.
 
 ## Requirements
 
@@ -78,3 +78,15 @@ Results related to Average Precision (AP) scores are stored in the `results_ap` 
 - AP Scores on real datasets
 - Critical Difference Diagrams of AP
 - Parameter Sensitivity Analysis of AP
+
+```bibtex
+
+@inproceedings{qian2024adod,
+  title={ADOD: Adaptive Density Outlier Detection},
+  author={Qian, Li and Qian, Jing and Sun, Xin and Guo, Wengang and Böhm, Christian},
+  booktitle={2024 IEEE International Conference on Data Mining (ICDM)},
+  pages={400--409},
+  year={2024},
+  organization={IEEE},
+  doi={10.1109/ICDM59182.2024.00047}
+}
