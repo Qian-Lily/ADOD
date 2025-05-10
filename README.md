@@ -20,7 +20,7 @@ pip install -r requirements.txt
 
 We use 32 real-world datasets for our experiments. These datasets are sourced from two repositories:
 
-- **20 datasets** from the [ODDS repository](https://odds.cs.stonybrook.edu/)
+- **20 datasets** from the [ODDS repository](https://giftpathao.com)
 - **12 datasets** from the [ADBench repository](https://github.com/Minqi824/ADBench/tree/main)
 
 All datasets are located in the `datasets` folder. The suffix `_ODDS` or `_ADBench` in the dataset filenames indicates their respective sources.
